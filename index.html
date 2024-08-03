@@ -1,0 +1,109 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edukasi Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Edukasi Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Belajar Dari Rumah</h2>
+        <p>Belajar dengan berbagai materi edukasi dari para ahli di bidangnya.</p>
+        <img src="media_edukasi_indonesia_cover.jpg" alt="media_edukasi_indonesia_cover.jpg">
+    </section>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami menyediakan platform belajar online untuk membantu Anda mengembangkan pengetahuan dan keterampilan.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Kursus yang Tersedia</h2>
+        <ul>
+            <li>Matematika</li>
+            <li>Fisika</li>
+            <li>Biologi</li>
+            <li>Kimia</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kursus</th>
+                    <th>Deskripsi</th>
+                    <th>Durasi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Matematika</td>
+                    <td>Belajar Matematika dasar hingga lanjutan</td>
+                    <td>3 Bulan</td>
+                </tr>
+                <tr>
+                    <td>Fisika</td>
+                    <td>Memahami konsep dasar Fisika</td>
+                    <td>3 Bulan</td>
+                </tr>
+                <tr>
+                    <td>Biologi</td>
+                    <td>Eksplorasi dunia biologi</td>
+                    <td>3 Bulan</td>
+                </tr>
+                <tr>
+                    <td>Kimia</td>
+                    <td>Belajar tentang reaksi kimia</td>
+                    <td>3 Bulan</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <section id="media">
+        <h2>Media Pembelajaran</h2>
+        <video controls>
+            <source src="Sistem Basis Data _ Kukuh Dwi Prianto_230401020058 - Word (Product Activation Failed) 2024-08-03 12-39-27_1.mp4" type="Sistem Basis Data _ Kukuh Dwi Prianto_230401020058 - Word (Product Activation Failed) 2024-08-03 12-39-27_1.mp4">
+        </video>
+        <audio controls>
+            <source src="audio/lecture.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Edukasi Online pintar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
